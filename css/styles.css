@@ -4,87 +4,25 @@
     box-sizing: border-box;
 }
 
-/* Aquí sólo la parte de Grid
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70px 90px auto 100px;
-    grid-template-areas: 
-    "header header"
-    "navbar navbar"
-    "main main"
-    "footer footer";
-}
-.header{
-    grid-area: header;
-}
-.navbar{
-    grid-area: navbar;
-}
-.main{
-    grid-area: main;
-}
-.footer{
-    grid-area: footer;
-}*/
-
-
 
 /*A partir de aquí, Flexbox y todo lo demás*/
+/*General*/
 h1{
     text-align: center;
     align-items: center;
 }
+.contenedor{
+    background-image: url(../assets/img/fondoRojo.jpg);
+    min-height: 100vh;
+}
+
+/*Cursos*/
 .main h3{
 color: white;
 text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.contenedor{
 
-    background-image: url(../assets/img/fondoRojo.jpg);
-    min-height: 100vh;
-}
-/* .header{
-    position: sticky;
-    top: 0px;
-    background-image: url(../assets/img/gray-concrete-wall.jpg);
-    text-align: center;
-    color:black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13px;
-    padding-top: 10px;
-} */
-/* .navbar{    
-    height: 60px;
-}
-
-.navbar ul{
-    display: flex;
-    /*flex-direction: row;
-    list-style: none;
-    background-color: white;
-    
-}
-.navbar ul li {
-    /*display: inline-block;
-    padding: 15px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-
-} */
-
-/*No lo uso de momento
-nav ul li:hover{
-    background-color: #E0DCDC;
-    transition: 0.9s;
-}*/
 
 .card-container {
     display: flex;

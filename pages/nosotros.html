@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <title>Nosotros</title>
-</head>
-<body class="contenedor">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+        <title>Nosotros</title>
+    
+    </head>
+    <body class="container-fluid">
+        <header>        
+            <div>
+                <h1 class="text-center mt-3">¿A qué estás esperando para aprender a bailar?</h1>
+            </div>       
+    
+            <nav class="navbar navbar-expand-lg bg-light ">
+                <div class="container-fluid">                
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/cursos.html">Cursos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/ubicacion.html">Ubicacion</a>
+                            </li>         
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                            </li>                                       
+                        </ul>
+                    </div>
+                </div>
+            </nav>  
+        </header>
 
-    <header class="header">
-        <div class="titulo">
-            <h1>¿A qué estás esperando para aprender a bailar?</h1>
-        </div> 
-        <nav class="navbar">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/cursos.html">Cursos</a></li>
-                <li><a href="../pages/ubicacion.html">Ubicación</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> 
-    </header>
 
-
-    <main class="main">
-        <h3>Sobre nosotros</h3>
-        <div class="card-container">
-            <div class="card">
-                <img src="../assets/img/aula.jpg" alt="Chica bailando" data-aos="zoom-in">
+        <main class="contenedor row">
+            <!-- Divido en dos columnas y alineo los dos divs -->
+            <div class="row justify-content-around align-items-center">
+                <div class="col-12 col-xl-6">
+                    <img class="img-fluid" src="../assets/img/aula.jpg" alt="Chica bailando" data-aos="zoom-in">
+                </div> 
+                <div class="col-12 col-xl-6">
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit libero soluta eligendi sapiente magnam reprehenderit cum temporibus voluptatum eum consectetur!</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>                
+                </div>
             </div>
-            <div class="card" data-aos="flip-down">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit libero soluta eligendi sapiente magnam reprehenderit cum temporibus voluptatum eum consectetur!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores, a deleniti numquam voluptatem voluptas expedita sint perferendis alias quis iure sapiente, vel voluptatum deserunt quam repellendus sequi quia totam.</p>                        
+        </main>
+
+
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+            <span class="text-muted">Con más de 10 años de experiencia, nuestra academia es un referente del baile. ¡Ven y disfruta de lo que más te gusta!</span>
             </div>
-        </div>
-    </main>
+        </footer>    
 
-    <!-- <aside></aside> -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
-    <footer class="footer">    
-        <p class="pFooter">Con más de 10 años de experiencia, nuestra academia es un referente del baile. ¡Ven y disfruta de lo que más te gusta!</p>
-    </footer> 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    
+    </body>
 </html>
