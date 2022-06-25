@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /*A partir de aquí, Flexbox y todo lo demás*/
 /*General*/
 h1{
@@ -15,138 +14,40 @@ h1{
     background-image: url(../assets/img/fondoRojo.jpg);
     min-height: 100vh;
 }
+.footer{
+    background-color: #E0DCDC;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;    
+}
+
 
 /*Cursos*/
+
+/* Puede que lo use más adelante
 .main h3{
 color: white;
 text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 70px;
-}
-
-.card{
-    margin: 10px;
-    width: 510%;
-}
-
-.card div{
-    margin: 100px 100px;
-}
-.card img {
-    width: 100%;
-    object-fit: cover;
-}
-
-
-
+}*/
 .cardHorario img {
     width: 70%;
     object-fit:cover;
     margin-left:13%;
 }
 
-.footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: auto;
+
+/*Formulario*/
+
+.fondoForm{
     background-color: #E0DCDC;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 22px;
-    text-align: center;
-}
-.card-containerForm {
-    display: flex;
-    flex-direction: column;
-    padding-top: 10%
-    /* justify-content: space-between
-    align-items: center;
-    padding-top: 70px; */
-} 
-.fondoFormulario{
-    background-color: #E0DCDC;
-    /* max-width: fit-content;     */
-    width:50%;
-    margin:auto;    
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    padding-block: 150px;
     border: 6px hidden;
     border-radius: 24px;
 }
-
-/* #nombre{
-    margin: 6px;
-}
-#email{
-    margin: 6px;
-}
-.comentario{
-    margin: 6px;
-} */
-
-
-
-.inputs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-.formulario{
-    display: flex;
-    flex-direction: column;
+.form-label{
+color: white;
 }
 
 
-
-/*Media Query - Responsive
-@media screen and (max-width: 520px){
-    .navbar ul{
-        font-size: 20px;
-        flex-direction: column;
-        width: 100%;        
-        text-align: center;        
-    }
-    .navbar ul li {
-        /*display: inline-block;
-        padding: 1px;
-    }
-    .navbar{
-        margin-top: 10px;
-    }
-    /*Esto fue clave para el responsive de los div!
-    .card-container {        
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding-top: 100px;
-    }
-    .card{
-        width: 100%;
-        flex-direction:column;
-        top: 20px;        
-    }
-
-    .card img{
-        width: 100%;
-        margin: 20px auto;
-        display: block;
-    }
-    .card iframe{
-        width: 100%;
-        margin: 20px auto;
-        display: block;
-    }*/
 
 
 
