@@ -1,0 +1,32 @@
+/*General*/
+.divHeader {
+  background-image: url(../img/gray-concrete-wall.jpg);
+  padding: 2px;
+}
+.divHeader h1 {
+  text-align: center;
+  align-items: center;
+}
+
+.contenedor {
+  background-image: url(../img/fondoRojo.jpg);
+  min-height: 100vh;
+}
+.contenedor p {
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  background-color: #E0DCDC;
+  text-align: center;
+}
+.footer .text-muted {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 22px;
+}
+
+/*****Pseudoclasses de general*****/
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
