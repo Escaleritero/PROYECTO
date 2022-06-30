@@ -1,0 +1,41 @@
+.divHeader{
+    background-image: url(../img/gray-concrete-wall.jpg);
+    padding: 2px;
+    h1{
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.contenedor{
+    background-image: url(../img/fondoRojo.jpg);
+    min-height: 100vh;
+    p{
+        text-align: center;
+        color: $blancoInicio;
+    }
+}
+.footer{
+    background-color: $grisFooter;    
+    text-align: center;
+    .text-muted{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 22px;
+    }
+}
+
+    /*****Pseudoclasses de general*****/
+.nav-item{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.contenedor{
+    .img-fluid{
+        &:hover{
+            position: relative;
+            top: -4px;
+        }
+    }
+}

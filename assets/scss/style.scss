@@ -1,36 +1,3 @@
 /*General*/
-$blancoInicio: white;
-$grisFooter: #E0DCDC;
-
-.divHeader{
-    background-image: url(../img/gray-concrete-wall.jpg);
-    padding: 2px;
-    h1{
-        text-align: center;
-        align-items: center;
-    }
-}
-
-.contenedor{
-    background-image: url(../img/fondoRojo.jpg);
-    min-height: 100vh;
-    p{
-        text-align: center;
-        color: $blancoInicio;
-    }
-}
-.footer{
-    background-color: $grisFooter;    
-    text-align: center;
-    .text-muted{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 22px;
-    }
-}
-
-    /*****Pseudoclasses de general*****/
-.navbar{
-    .nav-link:hover{
-        text-decoration: underline;
-    }
-}
+@import "variables.scss";
+@import "estiloDeIndex.scss";

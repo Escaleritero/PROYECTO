@@ -27,6 +27,11 @@
 }
 
 /*****Pseudoclasses de general*****/
-.navbar .nav-link:hover {
+.nav-item:hover {
   text-decoration: underline;
+}
+
+.contenedor .img-fluid:hover {
+  position: relative;
+  top: -4px;
 }/*# sourceMappingURL=style.css.map */
