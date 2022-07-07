@@ -1,3 +1,9 @@
+
+@mixin propiedadesFooter ($colorFondo, $alineacion) {
+    background-color: $colorFondo;
+    text-align: $alineacion;    
+}
+
 .divHeader{
     background-image: url(../img/gray-concrete-wall.jpg);
     padding: 2px;
@@ -15,14 +21,25 @@
         color: $blancoInicio;
     }
 }
+
+
+
 .footer{
-    background-color: $grisFooter;    
-    text-align: center;
+    @include propiedadesFooter($grisFooter, center);
     .text-muted{
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 22px;
     }
 }
+
+// .footer{
+//     background-color: $grisFooter;    
+//     text-align: center;
+//     .text-muted{
+//         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+//         font-size: 22px;
+//     }
+// }
 
     /*****Pseudoclasses de general*****/
 .nav-item{

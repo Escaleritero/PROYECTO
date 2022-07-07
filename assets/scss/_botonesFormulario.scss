@@ -1,0 +1,16 @@
+form {
+        .btn{
+            border: map-get($btn , border);
+            background-color: map-get($btn, fondo);
+            padding: map-get($btn, padding);
+            margin: map-get($btn, margen);
+        }
+
+        .btn2{
+            @extend .btn;
+            color: white;
+            border-radius: 6px;
+            // padding-bottom: 9px;
+            
+        }
+}
