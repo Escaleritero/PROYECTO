@@ -4,21 +4,54 @@
     text-align: $alineacion;    
 }
 
+
 .divHeader{
     background-image: url(../img/gray-concrete-wall.jpg);
     padding: 2px;
-    h1{
-        text-align: center;
-        align-items: center;
-    }
+    // h1{
+    //     text-align: center;
+    //     align-items: center;
+    // }
 }
+
 
 .contenedor{
     background-image: url(../img/fondoRojo.jpg);
     min-height: 100vh;
-    p{
+
+    .titulo{
+        font-size: 25px;
+        font-style: italic;
+    }
+    .tituloHorario{
+        @extend .titulo;
         text-align: center;
+    }
+    p{
+        // text-align: center;
+        // color: $blancoInicio;
+        // font-family: 'Open Sans';
+        // font-size: 20px;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        letter-spacing: 0px;
+        font-style: none;
+        word-spacing: 0px;
         color: $blancoInicio;
+        font-weight: bold;
+    }
+    .img-fluid{
+        padding-left: 30px;
+        &:hover{
+            position: relative;
+            top: -4px;
+        }
+    }
+    .fondoForm{
+        background-color: #E0DCDC;
+        border: 6px hidden;
+        border-radius: 24px;
     }
 }
 
@@ -45,14 +78,5 @@
 .nav-item{
     &:hover{
         text-decoration: underline;
-    }
-}
-
-.contenedor{
-    .img-fluid{
-        &:hover{
-            position: relative;
-            top: -4px;
-        }
     }
 }

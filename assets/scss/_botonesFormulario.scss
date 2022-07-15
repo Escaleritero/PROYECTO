@@ -1,4 +1,11 @@
 form {
+
+        .fondoForm{
+            background-color: #E0DCDC;
+            border: 6px hidden;
+            border-radius: 24px;
+        }
+
         .btn{
             border: map-get($btn , border);
             background-color: map-get($btn, fondo);
