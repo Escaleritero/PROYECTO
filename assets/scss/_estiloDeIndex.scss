@@ -8,10 +8,6 @@
 .divHeader{
     background-image: url(../img/gray-concrete-wall.jpg);
     padding: 2px;
-    // h1{
-    //     text-align: center;
-    //     align-items: center;
-    // }
 }
 
 
@@ -28,10 +24,6 @@
         text-align: center;
     }
     p{
-        // text-align: center;
-        // color: $blancoInicio;
-        // font-family: 'Open Sans';
-        // font-size: 20px;
         text-align: center;
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
@@ -65,16 +57,6 @@
     }
 }
 
-// .footer{
-//     background-color: $grisFooter;    
-//     text-align: center;
-//     .text-muted{
-//         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-//         font-size: 22px;
-//     }
-// }
-
-    /*****Pseudoclasses de general*****/
 .nav-item{
     &:hover{
         text-decoration: underline;
