@@ -4,7 +4,6 @@
     text-align: $alineacion;    
 }
 
-
 .divHeader{
     background-image: url(../img/gray-concrete-wall.jpg);
     padding: 2px;
@@ -31,6 +30,9 @@
         word-spacing: 0px;
         color: $blancoInicio;
         font-weight: bold;
+    }
+    .p-2{
+        overflow: hidden;
     }
     .img-fluid{
         padding-left: 30px;

@@ -25,6 +25,9 @@
   color: white;
   font-weight: bold;
 }
+.contenedor .p-2 {
+  overflow: hidden;
+}
 .contenedor .img-fluid {
   padding-left: 30px;
 }
@@ -65,4 +68,10 @@ form .btn, form .btn2 {
 form .btn2 {
   color: white;
   border-radius: 6px;
+}
+
+.contenedor .horario {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
